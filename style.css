@@ -1,0 +1,41 @@
+body{
+	background-color: #FFB71E;
+	text-align: center;
+}
+.bodydiv1{
+	background-color: white;
+	border-radius: 20px;
+	margin-left:5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+.bodydiv2{
+	background-color: #FFF0D0;
+	margin-left:5%;
+	margin-right: 5%;
+	border-radius: 20px;
+	padding-top:2%;
+	padding-bottom: 2%;
+	overflow-y: auto;
+	height:55vh;
+}
+.imgsize{
+	height:200px;
+	width: 200px;
+}
+.pad1{
+	padding-top: 12px;
+}
+.border1{
+	border-color: #637DAF;
+	border-style: double;
+	border-width: 3px;
+
+}
+u{
+	font-weight: bold;
+}
+.message{
+	text-decoration: none;
+	font-weight: bold;
+}

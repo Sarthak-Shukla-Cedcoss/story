@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			FORM-A-STORY
+		</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="main.js"></script>
+		</head>
+	<body>
+		<div class="bodydiv1" >
+			<!--- image to be set here -->
+			<img class="imgsize" src="form.svg">
+		</div>
+		<div class="bodydiv2" >
+			<div style="border-bottom: 1px solid grey">
+				<h1>Compleate the Form-<br>Compleate the Story!</h1>
+			</div>
+			<div class="pad1">
+				<form id="myForm" action="story.html" >
+					<div class="pad1">
+						<label>Animal:</label>
+						<input id="animal" type="text" name="animalname" placeholder="Tiger" required="required">
+					</div>
+					<div class="pad1">
+						<label>Another Animal:</label>
+						<input id="anotherAnimal" type="text" name="anotherAnimalName" placeholder="Lion" required="required">
+					</div>
+					<div class="pad1">
+						<label>One More Animal:</label>
+						<input id="oneMoreAnimal" type="text" name="oneMoreAnimalname" placeholder="dog" required="required">
+					</div>
+					<div class="pad1">
+						<label>Adjective(past-tense):</label>
+						<input id="adjective" type="text" name="adjective" placeholder="alarmed" required="required">
+					</div>
+					<div class="pad1">
+						<label>Verb(ends in -ing)</label>
+						<input id="verb" type="text" name="verb" placeholder="runing" required="required">
+					</div>
+					<div class="pad1">
+						<label>Number:</label>
+						<input id="number" type="number" name="number" placeholder="2" required="required">
+					
+					</div>
+					<div class="pad1">
+						<label>Yes or No:</label>
+						<input id="yes" type="radio" name="yn" value="yes">
+						<label>Yes</label>
+						<input id="no" type="radio" name="yn" value="No">
+						<label>No</label>
+					</div>
+					<div class="pad1">
+						<label>Relative speed (ends in -er):</label>
+						<input id="quicker" type="text" name="speed" placeholder="Quicker" required="required">
+						</div>
+					<div class="pad1">
+						<label>Motivational Quote</label>
+						<input id="motivation" type="text" name="motivation" placeholder="example" required="required">
+					</div>
+					<div class="pad1">
+						<label> Meaningful Message:</label>
+					</div>
+					<div >
+						<textarea id="message" class="border1" rows="5" placeholder="This is a message" required="required"></textarea>
+					</div>
+					<div class="pad1">
+						<input type="submit" onclick="formSubmit()"> Form My Story!</input>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
